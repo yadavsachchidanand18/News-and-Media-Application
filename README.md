@@ -1,4 +1,4 @@
-# E-commerce Backend API
+# News and Media Backend API
 A RESTful APIs for a News and Media Application built with Spring Boot and PostgreSQL.
 
 ## Features
