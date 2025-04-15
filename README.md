@@ -41,7 +41,7 @@ It is ideal for news platforms that need to handle user authentication, news cat
   
   Get all categories: GET /categories
   
-  Get category by ID: /categories/{id}
+  Delete a category: DELETE /categories/{id}
 
 - Comments
 
