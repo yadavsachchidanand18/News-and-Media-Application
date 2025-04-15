@@ -19,22 +19,30 @@ It is ideal for news platforms that need to handle user authentication, news cat
 ## API Reference
 - Authentication
   Register new user: POST /auth/register
+  
   Authenticate user & get JWT token: POST /auth/login
 
 - Articles
   Create an article: POST /articles
+  
   Get all articles: GET /articles
+  
   Get article by ID: GET /articles/{id}
+  
   Update an article: PUT /articles/{id}
+  
   Delete an article: DELETE /articles/{id}
 
 - Categories
   Create category: POST /categories
+  
   Get all categories: GET /categories
+  
   Get category by ID: /categories/{id}
 
 - Comments
   Add a comment: POST /articles/{id}/comments
+  
   Get all comments for an article: GET /articles/{id}/comments
 
 ## Tech Stack
