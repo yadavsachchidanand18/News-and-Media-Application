@@ -1,4 +1,4 @@
-# News and Media Backend API
+h# News and Media Backend API
 The Spring Boot News API is a RESTful web service designed to manage and deliver news articles. 
 This application is built using Spring Boot and incorporates JWT-based authentication, role-based access control, and BCrypt password hashing for security. 
 It is ideal for news platforms that need to handle user authentication, news categorization, and article management securely.
@@ -56,6 +56,18 @@ It is ideal for news platforms that need to handle user authentication, news cat
 - Security: JWT Authentication, BCrypt Password Hashing
 
 ## How to Run
-1. Clone the Repository: git clone repo_url
-2. Configure Database : application.properties with PostgreSQL details.
-3. Build and Run the Application: ./gradlew clean build and ./gradlew bootRun
+1. Clone the Repository :
+    git clone https://github.com/your-repo/news-media-api.git
+    cd news-media-api
+   
+2. Configure Database :
+   - application.properties with PostgreSQL details.
+   spring.datasource.url=jdbc:postgresql://localhost:5432/newsdb
+   spring.datasource.username=your_db_user
+   spring.datasource.password=your_db_password
+   spring.jpa.hibernate.ddl-auto=update
+   spring.jpa.show-sql=true
+
+3. Build and Run the Application:
+   ./gradlew clean build
+   ./gradlew bootRun
