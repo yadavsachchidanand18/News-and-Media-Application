@@ -62,11 +62,11 @@ It is ideal for news platforms that need to handle user authentication, news cat
    
 2. Configure Database :
    - application.properties with PostgreSQL details.
-   spring.datasource.url=jdbc:postgresql://localhost:5432/newsdb
-   spring.datasource.username=your_db_user
-   spring.datasource.password=your_db_password
-   spring.jpa.hibernate.ddl-auto=update
-   spring.jpa.show-sql=true
+   - spring.datasource.url=jdbc:postgresql://localhost:5432/newsdb
+   - spring.datasource.username=your_db_user
+   - spring.datasource.password=your_db_password
+   - spring.jpa.hibernate.ddl-auto=update
+   - spring.jpa.show-sql=true
 
 3. Build and Run the Application:
    ./gradlew clean build
