@@ -1,4 +1,4 @@
-h# News and Media Backend API
+# News and Media Backend API
 The Spring Boot News API is a RESTful web service designed to manage and deliver news articles. 
 This application is built using Spring Boot and incorporates JWT-based authentication, role-based access control, and BCrypt password hashing for security. 
 It is ideal for news platforms that need to handle user authentication, news categorization, and article management securely.
@@ -57,7 +57,7 @@ It is ideal for news platforms that need to handle user authentication, news cat
 
 ## How to Run
 1. Clone the Repository :
-    git clone https://github.com/your-repo/news-media-api.git
+    git clone repo_url
     cd news-media-api
    
 2. Configure Database :
